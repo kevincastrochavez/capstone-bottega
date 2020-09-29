@@ -1,7 +1,7 @@
 {
-  "name": "react-router",
+  "name": "capstone-bottega",
   "version": "1.0.0",
-  "description": "Basic skeleton codebase for React/Router applications.",
+  "description": "Capstone Project for the Bottega Code School",
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -32,6 +32,11 @@
   },
   "homepage": "https://github.com/bottega-code-school/js-builder",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@stripe/react-stripe-js": "^1.1.2",
+    "@stripe/stripe-js": "^1.9.0",
     "ajv": "6.12.0",
     "axios": "0.19.2",
     "autoprefixer": "^9.1.0",
@@ -62,7 +67,10 @@
     "react-redux": "7.2.0",
     "react-router": "5.1.2",
     "react-router-dom": "5.1.2",
+    "react-currency-format": "^1.0.0",
     "redux": "4.0.5",
+    "redux-form": "^8.3.6",
+    "redux-thunk": "^2.3.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "4.42.1",
